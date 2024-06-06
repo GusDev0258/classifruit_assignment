@@ -1,0 +1,19 @@
+.imageContainer {
+  background: url("/images/background.jpg");
+  width: 100vw;
+  height: 100vh;
+}
+.contentContainer {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.82) 0%,
+    rgba(253, 243, 216, 0.79) 86.5%,
+    rgba(253, 210, 210, 0.78) 100%
+  );
+  backdrop-filter: blur(32px);
+  height: 100%;
+}
+.content {
+  max-width: 1240px;
+  margin: 0 auto;
+}

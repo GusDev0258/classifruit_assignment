@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 86px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.landingTitle {
+  color: #1e293b;
+  font-weight: 800;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.healthy {
+  color: #a3e635;
+}
+.rotten {
+  color: #fca5a5;
+}
+.spanContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}

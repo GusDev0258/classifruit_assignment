@@ -1,0 +1,43 @@
+.menuContainer {
+  background-color: transparent;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.menuLinks li {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.menuLinks li::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: #ef4444;
+  bottom: -4px;
+  left: 0;
+}
+.menuLinks li:hover::after {
+  animation: borderBottomAnimation 0.3s ease-in-out forwards;
+}
+@keyframes borderBottomAnimation {
+  from {
+    width: 20%;
+  }
+  to {
+    width: 100%;
+  }
+}
