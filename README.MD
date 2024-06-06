@@ -7,7 +7,7 @@
 
 ---
 
-## Instruções claras de como instalar cada um dos requisitos
+## Instruções claras de como instalar cada um das dependências
 
 ### UNIX SYSTEMS
 
