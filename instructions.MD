@@ -48,8 +48,7 @@ Dentro do diretório entrega_2 no seu terminal para rodar os scripts de modelo e
 - `python -m venv`
 - `source .venv/Scrips/activate`
 - `pip install -r requirements.txt`
-  Assim, é para ter ativado o ambiente virtual do python que foi criado para o projeto e instalar as dependências.
-  Do contrário, caso não queira usar o venv, só de um `pip install -r requirements.txt`
+
   Dessa forma você instalou as dependências do projeto e pode roda-lo.
 
 ### WINDOWS
@@ -58,8 +57,9 @@ Dentro do diretório entrega_2 abra seu terminal e digite:
 
 - `python -m venv`
 - ` .venv/Scrips/activate` <- Note a importância do espaço no início, do contrário não irá funcionar.
-  Do contrário as instruções para instalar as dependências do projeto são as mesmas do UNIX SYSTEMS, já que é só ter o python3 e o pip instalado.
 - `pip install -r requirements.txt`
+
+  Dessa forma você instalou as dependências do projeto e pode roda-lo.
 
 ---
 
